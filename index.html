@@ -9,36 +9,35 @@
   </head>
   <body>
     <div class="container">
-      <form id="calculator">
-        <input type="text" id="input" placeholder="0" disabled />
-        <div class="buttons">
-          <div class="top-btns">
-            <button type="button" class="btn" data-value="7">7</button>
-            <button type="button" class="btn" data-value="8">8</button>
-            <button type="button" class="btn" data-value="9">9</button>
-            <button type="button" class="btn operator" data-value="/">/</button>
-          </div>
-
-          <div class="mid-btns">
-            <button type="button" class="btn" data-value="4">4</button>
-            <button type="button" class="btn" data-value="5">5</button>
-            <button type="button" class="btn" data-value="6">6</button>
-            <button type="button" class="btn operator" data-value="-">-</button>
-          </div>
-
-          <div class="bot-btns">
-            <button type="button" class="btn" data-value="1">1</button>
-            <button type="button" class="btn" data-value="2">2</button>
-            <button type="button" class="btn" data-value="3">3</button>
-            <button type="button" class="btn operator" data-value="+">+</button>
-          </div>
-
-          <div class="reset-btns">
-            <button type="reset" class="btn clear">C</button>
-            <button type="submit" class="btn equals">=</button>
-          </div>
+      <input type="text" id="input" placeholder="0" disabled />
+      <div class="buttons">
+        <div class="top-btns">
+          <button type="button" class="btn" data-value="7">7</button>
+          <button type="button" class="btn" data-value="8">8</button>
+          <button type="button" class="btn" data-value="9">9</button>
+          <button type="button" class="btn operator" data-value="/">/</button>
         </div>
-      </form>
+
+        <div class="mid-btns">
+          <button type="button" class="btn" data-value="4">4</button>
+          <button type="button" class="btn" data-value="5">5</button>
+          <button type="button" class="btn" data-value="6">6</button>
+          <button type="button" class="btn operator" data-value="-">-</button>
+        </div>
+
+        <div class="bot-btns">
+          <button type="button" class="btn" data-value="1">1</button>
+          <button type="button" class="btn" data-value="2">2</button>
+          <button type="button" class="btn" data-value="3">3</button>
+          <button type="button" class="btn operator" data-value="+">+</button>
+        </div>
+
+        <div class="reset-btns">
+          <button type="button" class="btn clear" data-value="C">C</button>
+          <button type="button" class="btn equals" data-value="=">=</button>
+          <button type="button" class="btn multiply" data-value="*">*</button>
+        </div>
+      </div>
 
       <script src="./app.js"></script>
     </div>
